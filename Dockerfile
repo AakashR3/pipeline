@@ -1,6 +1,7 @@
 
 FROM openjdk:8
 FROM tomcat:8.0.20-jre8
+EXPOSE 1234
 #RUN apt-get update
 #RUN apt-get install -y maven
 COPY pom.xml /JavaProject/FirstProject/pom.xml
