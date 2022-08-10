@@ -9,5 +9,5 @@ COPY src /src/main/java/MavenSample/app/App.java
 COPY target /FirstProject*.war /usr/local/tomcat/webapps/FirstProject.war  
 #WORKDIR  /JavaProject/FirstProject
 #RUN mvn package
-CMD ["java", "-cp", "target/FirstProject-1.0-SNAPSHOT.jar", "MavenSample.app.App"]
+
 
